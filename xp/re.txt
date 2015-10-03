@@ -1,0 +1,428 @@
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>FOR /F "delims=" %i IN ('dir/b/s *.as') DO find /N /I "trace" "%i" 
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\br.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\BR.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\ClassLoader.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\CLASSLOADER.AS
+[30]		trace("created a container clip "+o)
+[32]		trace(o.addinClass);
+[33]		o.onData =function (){trace("kaaaaaaaaa");}//= mx.utils.Delegate.create (o, o.addinClass);
+[34]		trace(o.onLoad);
+[42]		trace("addinClass");
+[44]		trace (t);
+[95]			trace("ClassLoader initialized");
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\DebugDisplayer.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\DEBUGDISPLAYER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\Debugger.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\DEBUGGER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\ExternalTracer.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\EXTERNALTRACER.AS
+[4]class xp.ExternalTracer extends LocalConnection{
+[8]	static private var _instance:ExternalTracer;
+[11]	public function ExternalTracer() {
+[18]		if (_instance==undefined) _instance=new ExternalTracer();
+[19]		_global._tr=_instance.eTrace;
+[20]		Object.prototype._tr=_instance.eTrace;
+[24]	function eTrace(o:Object){
+[25]		trace("sending"+o.toString());
+[26]		ExternalTracer._instance.send(ExternalTracer._instance.connectName,"log",o);
+[31]			trace("con");
+[35]			trace("dis");
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\SystemRepair.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SYSTEMREPAIR.AS
+[83]			trace("exist");
+[96]				trace("no MovieClip or subClass");
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\Test.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\TEST.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\TestEx.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\TESTEX.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\traceUti.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\TRACEUTI.AS
+[11]class xp.TraceUti{
+[13]		o.traceAll=TraceUti.traceAll;
+[14]		o.tracePoint=TraceUti.tracePoint;
+[17]	static function traceAll(o:Object){
+[20]			trace(i+"="+o[i]);
+[23]	static function tracePoint(o:Object,s:String){
+[30]		trace(re);
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\___.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\___.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\jgLoader.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\JGLOADER.AS
+[140]//         trace("The loading has started!");
+[143]//         trace("bytesTotal: " + o.bytesTotal);
+[144]//         trace("bytesLoaded: " + o.bytesLoaded);
+[145]//         trace("percentComplete: " + o.percentComplete);
+[148]//         trace("The loading has ended!");
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\matrix3D.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\MATRIX3D.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\movieClip.loadMovie.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\MOVIECLIP.LOADMOVIE.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\MovieClip.toolTip.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\MOVIECLIP.TOOLTIP.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\onDoubleClick.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\ONDOUBLECLICK.AS
+[24]//     trace("DoubleClick!");
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\PathFinder.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\PATHFINDER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\path_not compleate.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\PATH_NOT COMPLEATE.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\pj_color_hsb.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\PJ_COLOR_HSB.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\Serializer.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\SERIALIZER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\StringAdv.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\STRINGADV.AS
+[48]         static public method, trace all public methods with theyr options
+[53]                trace quottrim s:String :Stringquot
+[54]                trace quotrtrim s:String :Stringquot
+[55]                trace quotltrim s:String :Stringquot
+[56]                trace quotrpos s:String, src:String :Objectquot
+[57]                trace quotripos s:String, src:String :Objectquot
+[58]                trace quotpos s:String, src:String [, ofs:Number ] :Objectquot
+[59]                trace quotipos s:String, src:String [, ofs:Number ] :Objectquot
+[60]                trace quotnl2br s:String :Stringquot
+[61]                trace quotreplace src:String, rpl:String, s:String :Stringquot
+[62]                trace quotireplace src:String, rpl:String, s:String :Stringquot
+[63]                trace quotword_count s:String :Arrayquot
+[64]                trace quotpad s:String, p:Number [, toAd:String [, t:String ] ] :Stringquot
+[65]                trace quotrepeat s:String, many:Number :Stringquot
+[66]                trace quotaddslashes s:String :Stringquot
+[67]                trace quotstripslashes s:String :Stringquot
+[68]                trace quotucfirst s:String :Stringquot
+[69]                trace quotucwords s:String :Stringquot
+[70]                trace quotmd5 s:String [, StringAdv.b64pad:String [, StringAdv.chrsz:Number ] ] :Stringquot
+[71]                trace quotstrip_tags s:String [, allow:Object ] :Stringquot
+[378]                        //      trace myArray.in_array quothelloquot   // true
+[379]                        //      trace myArray.in_array quothiquot   // false
+[380]                        //      trace myArray.in_array quottwoquot   // true
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\tinyCheckLoaded.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\TINYCHECKLOADED.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\uCrypt.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\UCRYPT.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\ustring.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\USTRING.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\utils.array.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\UTILS.ARRAY.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\XML2Object.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\XML2OBJECT.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\as_lib\XML2ObjectPlus.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\AS_LIB\XML2OBJECTPLUS.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\dataType\FlatObject.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\DATATYPE\FLATOBJECT.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\dataType\matrix.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\DATATYPE\MATRIX.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\dataType\motion.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\DATATYPE\MOTION.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\dataType\ScrollBuffer.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\DATATYPE\SCROLLBUFFER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\dataType\Sum.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\DATATYPE\SUM.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\dataType\vector.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\DATATYPE\VECTOR.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\dataType\_i_matrix.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\DATATYPE\_I_MATRIX.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\events\EventDispatcher.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\EVENTS\EVENTDISPATCHER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\Combo.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\COMBO.AS
+[9]	#include "../inc/traceUti.as"
+[10]	private static var __init__xp_tr = xp.TraceUti.initialize (Combo.prototype);
+[33]				//traceAll (iList[i]);
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\ComboInput.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\COMBOINPUT.AS
+[25]			this.heavyAttack=function(){trace("succeed");};<br>
+[256]		//trace ("");
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\DrawClip.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\DRAWCLIP.AS
+[44]			trace("larger than depth");
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\KeyBuffer.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\KEYBUFFER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\KeyMapper.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\KEYMAPPER.AS
+[190]		trace ("buttons set to " + buttons);
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\KeyName.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\KEYNAME.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\MCPath.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\MCPATH.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\Reflector.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\REFLECTOR.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\SimpleMap.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SIMPLEMAP.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\chase\C.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\CHASE\C.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\chase\Chaser.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\CHASE\CHASER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\chase\ChasingEventObj.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\CHASE\CHASINGEVENTOBJ.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\chase\ChasingFunc.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\CHASE\CHASINGFUNC.AS
+[35]			trace(typeof(s))
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\chase\DelegateObject.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\CHASE\DELEGATEOBJECT.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\chase\SimpleTarget.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\CHASE\SIMPLETARGET.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\chase\Target.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\CHASE\TARGET.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\drawClip\DrawClip.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\DRAWCLIP\DRAWCLIP.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\arbitarySkew.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\ARBITARYSKEW.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\arbSkewAd.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\ARBSKEWAD.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\skewCon.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\SKEWCON.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\VoidSkew.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\VOIDSKEW.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\_.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\_.AS
+[136]		//debugUtility.debugPanel.traceDebug (i);
+[148]	debugUtility.debugPanel.traceDebug (ths + "[ " + nm + " ]");
+[150]	debugUtility.debugPanel.traceDebug (s);
+[151]	debugUtility.debugPanel.traceDebug ("\n");
+[159]	debugUtility.debugPanel.traceDebug (ths + "[ " + nm + " ]");
+[161]	debugUtility.debugPanel.traceDebug ("****   warning *****    :" + s);
+[162]	debugUtility.debugPanel.traceDebug ("\n");
+[175]	//debugUtility.debugPanel.traceDebug (str + "----------START");
+[177]	//debugUtility.debugPanel.traceDebug ("\n");
+[188]//	debugUtility.debugPanel.traceDebug (str + "----------END");
+[190]//	debugUtility.debugPanel.traceDebug ("time cost : " + tm);
+[191]//	debugUtility.debugPanel.traceDebug ("\n");
+[199]	debugUtility.debugPanel.traceDebug (ths + "  [ " + nm + " ]----------");
+[200]	debugUtility.debugPanel.traceDebug ("**** uncorrect parameter *****    :\n");
+[201]	debugUtility.debugPanel.traceDebug ("instance: " + s);
+[202]	debugUtility.debugPanel.traceDebug ("class: " + s._n_className);
+[203]	debugUtility.debugPanel.traceDebug ("\n");
+[228]	debugUtility.debugPanel.traceDebug ("===" + _global.stack);
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\_i_flat_skew.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\_I_FLAT_SKEW.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\_i_side_control.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\_I_SIDE_CONTROL.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\_i_skewAd.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\_I_SKEWAD.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\content\zClip.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\CONTENT\ZCLIP.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\content\zClipRoller.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\CONTENT\ZCLIPROLLER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\content\zClipSimpleRoller.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\CONTENT\ZCLIPSIMPLEROLLER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\content\_i_content_control.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\CONTENT\_I_CONTENT_CONTROL.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\trim\subTrimMask.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\TRIM\SUBTRIMMASK.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\skew\trim\_i_trim_control.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\SKEW\TRIM\_I_TRIM_CONTROL.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\struct\ChaserJoint.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\STRUCT\CHASERJOINT.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\gameLib\struct\Joint.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\GAMELIB\STRUCT\JOINT.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\inc\broadcaster.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\INC\BROADCASTER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\inc\delayFunc.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\INC\DELAYFUNC.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\inc\eventDispatcher.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\INC\EVENTDISPATCHER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\inc\traceUti.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\INC\TRACEUTI.AS
+[1]﻿var traceAll:Function;
+[2]var tracePoint:Function;
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\proto\MouseProto.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\PROTO\MOUSEPROTO.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\proto\MovieClipProto.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\PROTO\MOVIECLIPPROTO.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\proto\xpPrototype.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\PROTO\XPPROTOTYPE.AS
+[23]		trace(this+"---");
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\simpleUI\button.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SIMPLEUI\BUTTON.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\simpleUI\container.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SIMPLEUI\CONTAINER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\simpleUI\content.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SIMPLEUI\CONTENT.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\simpleUI\effect.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SIMPLEUI\EFFECT.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\simpleUI\icon.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SIMPLEUI\ICON.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\simpleUI\menuBar.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SIMPLEUI\MENUBAR.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\simpleUI\slideContainer.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SIMPLEUI\SLIDECONTAINER.AS
+[12]		trace("select "+n);
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\simpleUI\__c.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SIMPLEUI\__C.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\system\Broadcaster.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SYSTEM\BROADCASTER.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\system\callStack.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SYSTEM\CALLSTACK.AS
+
+C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp>find /N /I "trace" "C:\Documents and Settings\xp.DR-DR\Local Settings\Application Data\Macromedia\Flash MX 2004\en\Configuration\classes2\xp\system\delayFunc.as" 
+
+---------- C:\DOCUMENTS AND SETTINGS\XP.DR-DR\LOCAL SETTINGS\APPLICATION DATA\MACROMEDIA\FLASH MX 2004\EN\CONFIGURATION\CLASSES2\XP\SYSTEM\DELAYFUNC.AS

@@ -1,0 +1,1 @@
+﻿class xp.simpleUI.icon extends xp.simpleUI.content{}

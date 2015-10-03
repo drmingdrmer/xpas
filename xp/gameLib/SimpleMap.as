@@ -1,0 +1,10 @@
+﻿class xp.gameLib.SimpleMap{
+	
+	
+	
+	
+	
+	
+	
+	
+}
